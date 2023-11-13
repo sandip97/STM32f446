@@ -23,6 +23,6 @@ jobs:
 
     - name: Build C files
       run: |
-        gcc -o main Src\main.c
+        gcc -o main Src/main.c
         .main
       working-directory: ${{ github.workspace }}
